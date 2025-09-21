@@ -1,8 +1,8 @@
 
 
-setwd("C:/Users/rar/OneDrive - Genmab/Personalfolder/NRFmanuscript/Final_model")
+setwd("")
 
-Modeling_dir = "C:/Users/rar/OneDrive - Genmab/Personalfolder/NRFmanuscript/Final_model"
+Modeling_dir = "Data directory folder"
 
 
 
@@ -249,10 +249,10 @@ out_final2 <- lapply(myfiles, function(df) {
 
 
 out_final = out_final2
-out_final[[1]]["kp"] = out_final[[1]]["kp"]/10
-out_final[[2]]["kp"]= out_final[[2]]["kp"]/10
-out_final[[3]]["kp"] = out_final[[3]]["kp"]/10
-out_final[[4]]["kp"] = out_final[[4]]["kp"]/10
+out_final[[1]]["kp"] = out_final[[1]]["kp"]
+out_final[[2]]["kp"]= out_final[[2]]["kp"]
+out_final[[3]]["kp"] = out_final[[3]]["kp"]
+out_final[[4]]["kp"] = out_final[[4]]["kp"]
 
 
 endparms = length(names(out_final[[1]]))-3
@@ -482,3 +482,4 @@ p <- ggpairs(
 ) + theme_bw(base_size = 11)
 
 print(p)
+
