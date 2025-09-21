@@ -12,12 +12,12 @@ library("gridExtra")
 # install.packages("ggnewscale")
 #https://www.pmxsolutions.com/2019/08/16/plotting-pk-pd-hysteresis-with-variability-in-r-using-ggplot/
 
-directory = "C:/Users/rar/OneDrive - Genmab/Personalfolder/NRFmanuscript/Hysteresis"
+directory = "Datafolder"
 
 file_name <- list.files(path = paste0(directory),pattern = ".txt")
 
 
-image_dir = "C:/Users/rar/OneDrive - Genmab/Personalfolder/NRFmanuscript/Hysteresis"
+image_dir = ""
 
 
 myfiles = lapply(paste0(directory,"/",file_name), read.delim,sep=" ")
@@ -384,3 +384,4 @@ tiff(file.path(image_dir, "Supp_Figure_ABCD_Repeated_Hysteresis_Timecourse.tiff"
      units = "in", width = 8, height = 9, res = 600, compression = "lzw")
 print(final_rep)
 dev.off()
+
