@@ -1,0 +1,33 @@
+General_Parameters_name,Value,Remarks
+buildSrxn1Base,0.02262,synthesis rate constant of Srxn1 
+degradSrxn1,0.01577,degradation rate constant of Srxn1
+Km_Srxn1,107060,affinity constant paramters for Nrf2 induced Srxn1  
+hill_acetylated_SRXN1,9.82335,hill coefficient for modfied Nrf2 i.e. Nrf2* or Nrf2_act
+Vmax_buildSrxn1,130492,Maximum induction of Srxn1 by Nrf2 
+Km_NRF2_ACETYLATED_SRXN1,0.01361,affinity constant paramters for modfied Nrf2 i.e. Nrf2* or Nrf2_act 
+hill_Srxn1,1.00412,hill coefficient for the unmodified Nrf2
+initial_fraction,1.00E-03,initial amount of Fraction_X
+r_Sul,7.98,rate constant by which Fraction_X increases
+decay_Sul,0.15,the rate constant by which Fraction_X decreases
+r_Andro,0.65,rate constant by which Fraction_X increases
+decay_Andro,0.3,the rate constant by which Fraction_X decreases
+r_Etha,1.082,rate constant by which Fraction_X increases
+decay_Etha,0.126,the rate constant by which Fraction_X decreases
+r_CDDO,1.162,rate constant by which Fraction_X increases
+decay_CDDO,0.1034,the rate constant by which Fraction_X decreases
+r2_Sul_24,2.186,rate constant by which Fraction_X increases after a second dosing
+decay2_Sul_24,0.125,rate constant by which Fraction_X decreases after a second dosing
+r2_Andro_24,2.14,rate constant by which Fraction_X increases after a second dosing
+decay2_Andro_24,0.125,rate constant by which Fraction_X decreases after a second dosing
+r2_Etha_24,0.03,rate constant by which Fraction_X increases after a second dosing
+decay2_Etha_24,0.084,rate constant by which Fraction_X decreases after a second dosing
+r2_CDDO_24,2.06,rate constant by which Fraction_X increases after a second dosing
+decay2_CDDO_24,0.07,rate constant by which Fraction_X decreases after a second dosing
+r2_Sul_8,0.0021,rate constant by which Fraction_X increases after a second dosing
+decay2_Sul_8,0.0721,rate constant by which Fraction_X decreases after a second dosing
+r2_Andro_8,2.6558,rate constant by which Fraction_X increases after a second dosing
+decay2_Andro_8,0.2054,rate constant by which Fraction_X decreases after a second dosing
+r2_Etha_8,2.391,rate constant by which Fraction_X increases after a second dosing
+decay2_Etha_8,0.1026,rate constant by which Fraction_X decreases after a second dosing
+r2_CDDO_8,2.6256,rate constant by which Fraction_X increases after a second dosing
+decay2_CDDO_8,0.076,rate constant by which Fraction_X decreases after a second dosing
