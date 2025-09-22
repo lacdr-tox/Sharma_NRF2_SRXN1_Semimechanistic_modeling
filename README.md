@@ -14,5 +14,4 @@ This repository contains the code, model files, and analysis scripts supporting 
 - **`/figures`** — code used to generate plots and figures in the manuscript  
 - **`/data`** - Experimental data used for model simulation and fitting
 
-https://github.com/<your-username>/Sharma_NRF2_SRXN1_Semimechanistic_modeling.git
-cd Sharma_NRF2_SRXN1_Semimechanistic_modeling
+https://github.com/lacder-tox/Sharma_NRF2_SRXN1_Semimechanistic_modeling
